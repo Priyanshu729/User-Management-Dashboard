@@ -1,0 +1,118 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1E3A8A;  /* Dark blue background */
+    color: white;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+/* Center content */
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    color: white;
+}
+
+/* Add some space around buttons and inputs */
+button, input {
+    border-radius: 4px;
+    padding: 8px 16px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #2D3E72;  /* Lighter blue background for table */
+    border-radius: 8px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #1E2A53;  /* Darker blue for header */
+    color: white;
+}
+
+td {
+    background-color: #1F3D6B;  /* Lighter shade of blue for table rows */
+    color: white;
+    border-bottom: 1px solid #4B6F9E;
+}
+
+/* Hover Effects */
+button:hover, td:hover {
+    background-color: #4A90E2; /* Light blue on hover */
+}
+
+button:focus, td:focus {
+    outline: none;
+}
+
+button:hover {
+    background-color: #007BFF; /* Bright blue on button hover */
+}
+
+/* User Form Container */
+#userFormContainer {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #fff;
+    background-color: #243B60;  /* Slightly darker blue */
+    border-radius: 8px;
+    width: 100%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Form Elements */
+#userForm input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #A3B6D8;
+    background-color: #3E5C8B;  /* Darker input background */
+    color: white;
+}
+
+#userForm input:focus {
+    border-color: #4A90E2;
+    outline: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    table {
+        font-size: 0.9rem;
+    }
+
+    #userFormContainer {
+        max-width: 100%;
+        margin: 5px;
+    }
+
+    button {
+        width: 100%;
+    }
+}

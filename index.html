@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Management Dashboard</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <h1>User Management Dashboard</h1>
+
+    <button id="addUserBtn">Add New User</button>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Department</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="userTableBody">
+            <!-- Dynamic user rows will be inserted here -->
+        </tbody>
+    </table>
+
+    <!-- User Form -->
+    <div id="userFormContainer" class="hidden">
+        <h2 id="formTitle">Add User</h2>
+        <form id="userForm">
+            <input type="hidden" id="userId">
+            <label>First Name:</label>
+            <input type="text" id="firstName" required>
+            <label>Last Name:</label>
+            <input type="text" id="lastName" required>
+            <label>Email:</label>
+            <input type="email" id="email" required>
+            <label>Department:</label>
+            <input type="text" id="department" required>
+            <button type="submit">Save</button>
+            <button type="button" id="cancelBtn">Cancel</button>
+        </form>
+    </div>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
