@@ -1,10 +1,9 @@
 
-This is a simple HTML form that collects user input for **Name**, **Password**, **Email**, **Department**, and **Additional Information**.
+This is a simple HTML form that collects user input for **Name**, **Password**, **Email**, **Department**.
 It includes basic HTML validation and is integrated with the **JSONPlaceholder API** for handling user data submission.
 
 ## Features:
 - Collects **Name**, **Password**, **Email**, and **Department** from the user.
-- Optional input for **Additional Information**.
 - Basic **HTML5 form validation** (`required` attribute).
 - Submits data to the **JSONPlaceholder API** and allows data to be retrieved or updated.
 
